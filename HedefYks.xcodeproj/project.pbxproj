@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCB07A50ABFEA944F3AEBB6 /* Pods_HedefYks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87DD4E7A710A9B2B4E737F2 /* Pods_HedefYks.framework */; };
+		B398994443863E2A5B1AB8B5 /* Pods_HedefYks_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EF3B8D9A756CC6D8BFFB6D /* Pods_HedefYks_OneSignalNotificationServiceExtension.framework */; };
+		CD1D5F1C26149148003C376B /* TekliflerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D5F1B26149148003C376B /* TekliflerViewController.swift */; };
+		CD1D5F1F26149CD3003C376B /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D5F1E26149CD3003C376B /* InstagramViewController.swift */; };
+		CD41D17126074404009E7EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D17026074404009E7EF9 /* AppDelegate.swift */; };
+		CD41D17326074404009E7EF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D17226074404009E7EF9 /* SceneDelegate.swift */; };
+		CD41D17526074404009E7EF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D17426074404009E7EF9 /* ViewController.swift */; };
+		CD41D17826074404009E7EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41D17626074404009E7EF9 /* Main.storyboard */; };
+		CD41D17A26074405009E7EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD41D17926074405009E7EF9 /* Assets.xcassets */; };
+		CD41D17D26074405009E7EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41D17B26074405009E7EF9 /* LaunchScreen.storyboard */; };
+		CD41D1A426074D55009E7EF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1A326074D55009E7EF9 /* FirstViewController.swift */; };
+		CD41D1A726075606009E7EF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1A626075606009E7EF9 /* SecondViewController.swift */; };
+		CD41D1AA2607560D009E7EF9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1A92607560D009E7EF9 /* ThirdViewController.swift */; };
+		CD41D1AD26075625009E7EF9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1AC26075625009E7EF9 /* FourthViewController.swift */; };
+		CD41D1B026075631009E7EF9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1AF26075631009E7EF9 /* FifthViewController.swift */; };
+		CD41D1B3260758BB009E7EF9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1B2260758BB009E7EF9 /* SettingsViewController.swift */; };
+		CD41D1B626076893009E7EF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD41D1B526076893009E7EF9 /* GoogleService-Info.plist */; };
+		CD41D1D826077364009E7EF9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1D726077364009E7EF9 /* RegisterViewController.swift */; };
+		CD41D1E026077D8A009E7EF9 /* DropInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1DF26077D8A009E7EF9 /* DropInViewController.swift */; };
+		CD41D1E32607D046009E7EF9 /* Konular1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41D1E22607D046009E7EF9 /* Konular1ViewController.swift */; };
+		CD52BC22260F19D10075B704 /* SoruArsiviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52BC21260F19D10075B704 /* SoruArsiviViewController.swift */; };
+		CD52BC25260F37B50075B704 /* AytSoruArsiviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52BC24260F37B50075B704 /* AytSoruArsiviViewController.swift */; };
+		CD52BC28260F39A60075B704 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52BC27260F39A60075B704 /* ExampleCollectionViewCell.swift */; };
+		CD56A2E92608AEFF004371E9 /* Calis1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD56A2E82608AEFF004371E9 /* Calis1ViewController.swift */; };
+		CD7E92CF2615202D0028C622 /* SitelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E92CE2615202D0028C622 /* SitelerViewController.swift */; };
+		CD7E92D82615BE3B0028C622 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E92D72615BE3B0028C622 /* NotificationService.swift */; };
+		CD7E92DC2615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD7E92D52615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD7EF6802612276100555B53 /* TytYuzdelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF67F2612276100555B53 /* TytYuzdelerViewController.swift */; };
+		CD7EF6832612276D00555B53 /* AytYuzdelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF6822612276D00555B53 /* AytYuzdelerViewController.swift */; };
+		CD7EF68626122C4A00555B53 /* KonuTamamlaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF68526122C4A00555B53 /* KonuTamamlaViewController.swift */; };
+		CD7EF689261313D800555B53 /* DuyurularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF688261313D800555B53 /* DuyurularViewController.swift */; };
+		CD7EF68C2613395A00555B53 /* GeriSayimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF68B2613395A00555B53 /* GeriSayimViewController.swift */; };
+		CD7EF68F2613777000555B53 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF68E2613777000555B53 /* YoutubeViewController.swift */; };
+		CD7EF69226138A5E00555B53 /* KaynaklarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF69126138A5E00555B53 /* KaynaklarViewController.swift */; };
+		CDB68F7B260B3C860048A9B6 /* eaDenemeShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB68F7A260B3C860048A9B6 /* eaDenemeShowViewController.swift */; };
+		CDB68F7E260B3C8F0048A9B6 /* saDenemeShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB68F7D260B3C8F0048A9B6 /* saDenemeShowViewController.swift */; };
+		CDB68F81260B3C9D0048A9B6 /* soDenemeShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB68F80260B3C9D0048A9B6 /* soDenemeShowViewController.swift */; };
+		CDD32080260A49AA00100CCE /* tytDenemeEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD3207F260A49AA00100CCE /* tytDenemeEkleViewController.swift */; };
+		CDD32083260A49B500100CCE /* aytDenemeEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD32082260A49B500100CCE /* aytDenemeEkleViewController.swift */; };
+		CDD32086260A49BF00100CCE /* ydtDenemeEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD32085260A49BF00100CCE /* ydtDenemeEkleViewController.swift */; };
+		CDD32089260A940300100CCE /* tytDenemeShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD32088260A940300100CCE /* tytDenemeShowViewController.swift */; };
+		CDD861BF2609E1CB00635914 /* Konular2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD861BE2609E1CB00635914 /* Konular2ViewController.swift */; };
+		CDD861C22609E1D400635914 /* Calis2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD861C12609E1D400635914 /* Calis2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7E92DA2615BE3B0028C622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD41D16526074404009E7EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7E92D42615BE3B0028C622;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD7E92DD2615BE3B0028C622 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD7E92DC2615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14396025838E642F5AF97298 /* Pods-HedefYks-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedefYks-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-HedefYks-OneSignalNotificationServiceExtension/Pods-HedefYks-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		62F2154E28E6B5860FB33B9F /* Pods-HedefYks-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedefYks-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-HedefYks-OneSignalNotificationServiceExtension/Pods-HedefYks-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7EFB973552A62331D46B8C21 /* Pods-HedefYks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedefYks.release.xcconfig"; path = "Target Support Files/Pods-HedefYks/Pods-HedefYks.release.xcconfig"; sourceTree = "<group>"; };
+		81EF3B8D9A756CC6D8BFFB6D /* Pods_HedefYks_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HedefYks_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8734FC1B896E1D7F6B6DA52F /* Pods-HedefYks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedefYks.debug.xcconfig"; path = "Target Support Files/Pods-HedefYks/Pods-HedefYks.debug.xcconfig"; sourceTree = "<group>"; };
+		A87DD4E7A710A9B2B4E737F2 /* Pods_HedefYks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HedefYks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D5F1B26149148003C376B /* TekliflerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekliflerViewController.swift; sourceTree = "<group>"; };
+		CD1D5F1E26149CD3003C376B /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		CD41D16D26074404009E7EF9 /* HedefYks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HedefYks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD41D17026074404009E7EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD41D17226074404009E7EF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD41D17426074404009E7EF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD41D17726074404009E7EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD41D17926074405009E7EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD41D17C26074405009E7EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD41D17E26074405009E7EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD41D1A326074D55009E7EF9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD41D1A626075606009E7EF9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD41D1A92607560D009E7EF9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CD41D1AC26075625009E7EF9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CD41D1AF26075631009E7EF9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		CD41D1B2260758BB009E7EF9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CD41D1B526076893009E7EF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD41D1D726077364009E7EF9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD41D1DF26077D8A009E7EF9 /* DropInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropInViewController.swift; sourceTree = "<group>"; };
+		CD41D1E22607D046009E7EF9 /* Konular1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konular1ViewController.swift; sourceTree = "<group>"; };
+		CD52BC21260F19D10075B704 /* SoruArsiviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoruArsiviViewController.swift; sourceTree = "<group>"; };
+		CD52BC24260F37B50075B704 /* AytSoruArsiviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytSoruArsiviViewController.swift; sourceTree = "<group>"; };
+		CD52BC27260F39A60075B704 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD56A2E82608AEFF004371E9 /* Calis1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calis1ViewController.swift; sourceTree = "<group>"; };
+		CD7E92CE2615202D0028C622 /* SitelerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitelerViewController.swift; sourceTree = "<group>"; };
+		CD7E92D52615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7E92D72615BE3B0028C622 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CD7E92D92615BE3B0028C622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7E93042615C0C70028C622 /* HedefYks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HedefYks.entitlements; sourceTree = "<group>"; };
+		CD7EF67F2612276100555B53 /* TytYuzdelerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytYuzdelerViewController.swift; sourceTree = "<group>"; };
+		CD7EF6822612276D00555B53 /* AytYuzdelerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytYuzdelerViewController.swift; sourceTree = "<group>"; };
+		CD7EF68526122C4A00555B53 /* KonuTamamlaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonuTamamlaViewController.swift; sourceTree = "<group>"; };
+		CD7EF688261313D800555B53 /* DuyurularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuyurularViewController.swift; sourceTree = "<group>"; };
+		CD7EF68B2613395A00555B53 /* GeriSayimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeriSayimViewController.swift; sourceTree = "<group>"; };
+		CD7EF68E2613777000555B53 /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		CD7EF69126138A5E00555B53 /* KaynaklarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaynaklarViewController.swift; sourceTree = "<group>"; };
+		CDB68F7A260B3C860048A9B6 /* eaDenemeShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eaDenemeShowViewController.swift; sourceTree = "<group>"; };
+		CDB68F7D260B3C8F0048A9B6 /* saDenemeShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saDenemeShowViewController.swift; sourceTree = "<group>"; };
+		CDB68F80260B3C9D0048A9B6 /* soDenemeShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soDenemeShowViewController.swift; sourceTree = "<group>"; };
+		CDD3207F260A49AA00100CCE /* tytDenemeEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tytDenemeEkleViewController.swift; sourceTree = "<group>"; };
+		CDD32082260A49B500100CCE /* aytDenemeEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aytDenemeEkleViewController.swift; sourceTree = "<group>"; };
+		CDD32085260A49BF00100CCE /* ydtDenemeEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ydtDenemeEkleViewController.swift; sourceTree = "<group>"; };
+		CDD32088260A940300100CCE /* tytDenemeShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tytDenemeShowViewController.swift; sourceTree = "<group>"; };
+		CDD861BE2609E1CB00635914 /* Konular2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konular2ViewController.swift; sourceTree = "<group>"; };
+		CDD861C12609E1D400635914 /* Calis2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calis2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD41D16A26074404009E7EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCB07A50ABFEA944F3AEBB6 /* Pods_HedefYks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7E92D22615BE3B0028C622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B398994443863E2A5B1AB8B5 /* Pods_HedefYks_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F622881BA2E2D4834F3A21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8734FC1B896E1D7F6B6DA52F /* Pods-HedefYks.debug.xcconfig */,
+				7EFB973552A62331D46B8C21 /* Pods-HedefYks.release.xcconfig */,
+				14396025838E642F5AF97298 /* Pods-HedefYks-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				62F2154E28E6B5860FB33B9F /* Pods-HedefYks-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE427E41894C14D98DA7E404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87DD4E7A710A9B2B4E737F2 /* Pods_HedefYks.framework */,
+				81EF3B8D9A756CC6D8BFFB6D /* Pods_HedefYks_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD41D16426074404009E7EF9 = {
+			isa = PBXGroup;
+			children = (
+				CD41D16F26074404009E7EF9 /* HedefYks */,
+				CD7E92D62615BE3B0028C622 /* OneSignalNotificationServiceExtension */,
+				CD41D16E26074404009E7EF9 /* Products */,
+				05F622881BA2E2D4834F3A21 /* Pods */,
+				BE427E41894C14D98DA7E404 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD41D16E26074404009E7EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD41D16D26074404009E7EF9 /* HedefYks.app */,
+				CD7E92D52615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD41D16F26074404009E7EF9 /* HedefYks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E93042615C0C70028C622 /* HedefYks.entitlements */,
+				CD41D18526074499009E7EF9 /* ViewControllers */,
+				CD41D17026074404009E7EF9 /* AppDelegate.swift */,
+				CD41D17226074404009E7EF9 /* SceneDelegate.swift */,
+				CD41D17626074404009E7EF9 /* Main.storyboard */,
+				CD41D17926074405009E7EF9 /* Assets.xcassets */,
+				CD41D17B26074405009E7EF9 /* LaunchScreen.storyboard */,
+				CD41D17E26074405009E7EF9 /* Info.plist */,
+				CD41D1B526076893009E7EF9 /* GoogleService-Info.plist */,
+			);
+			path = HedefYks;
+			sourceTree = "<group>";
+		};
+		CD41D18526074499009E7EF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD41D17426074404009E7EF9 /* ViewController.swift */,
+				CD41D1A326074D55009E7EF9 /* FirstViewController.swift */,
+				CD41D1A626075606009E7EF9 /* SecondViewController.swift */,
+				CD41D1A92607560D009E7EF9 /* ThirdViewController.swift */,
+				CD41D1AC26075625009E7EF9 /* FourthViewController.swift */,
+				CD41D1AF26075631009E7EF9 /* FifthViewController.swift */,
+				CD41D1B2260758BB009E7EF9 /* SettingsViewController.swift */,
+				CD41D1D726077364009E7EF9 /* RegisterViewController.swift */,
+				CD41D1DF26077D8A009E7EF9 /* DropInViewController.swift */,
+				CD41D1E22607D046009E7EF9 /* Konular1ViewController.swift */,
+				CD56A2E82608AEFF004371E9 /* Calis1ViewController.swift */,
+				CDD861BE2609E1CB00635914 /* Konular2ViewController.swift */,
+				CDD861C12609E1D400635914 /* Calis2ViewController.swift */,
+				CDD3207F260A49AA00100CCE /* tytDenemeEkleViewController.swift */,
+				CDD32082260A49B500100CCE /* aytDenemeEkleViewController.swift */,
+				CDD32085260A49BF00100CCE /* ydtDenemeEkleViewController.swift */,
+				CDD32088260A940300100CCE /* tytDenemeShowViewController.swift */,
+				CDB68F7A260B3C860048A9B6 /* eaDenemeShowViewController.swift */,
+				CDB68F7D260B3C8F0048A9B6 /* saDenemeShowViewController.swift */,
+				CDB68F80260B3C9D0048A9B6 /* soDenemeShowViewController.swift */,
+				CD52BC21260F19D10075B704 /* SoruArsiviViewController.swift */,
+				CD52BC24260F37B50075B704 /* AytSoruArsiviViewController.swift */,
+				CD52BC27260F39A60075B704 /* ExampleCollectionViewCell.swift */,
+				CD7EF67F2612276100555B53 /* TytYuzdelerViewController.swift */,
+				CD7EF6822612276D00555B53 /* AytYuzdelerViewController.swift */,
+				CD7EF68526122C4A00555B53 /* KonuTamamlaViewController.swift */,
+				CD7EF688261313D800555B53 /* DuyurularViewController.swift */,
+				CD7EF68B2613395A00555B53 /* GeriSayimViewController.swift */,
+				CD7EF68E2613777000555B53 /* YoutubeViewController.swift */,
+				CD7EF69126138A5E00555B53 /* KaynaklarViewController.swift */,
+				CD1D5F1B26149148003C376B /* TekliflerViewController.swift */,
+				CD1D5F1E26149CD3003C376B /* InstagramViewController.swift */,
+				CD7E92CE2615202D0028C622 /* SitelerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD7E92D62615BE3B0028C622 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E92D72615BE3B0028C622 /* NotificationService.swift */,
+				CD7E92D92615BE3B0028C622 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD41D16C26074404009E7EF9 /* HedefYks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD41D18126074405009E7EF9 /* Build configuration list for PBXNativeTarget "HedefYks" */;
+			buildPhases = (
+				65D187BE447C073735C94465 /* [CP] Check Pods Manifest.lock */,
+				CD41D16926074404009E7EF9 /* Sources */,
+				CD41D16A26074404009E7EF9 /* Frameworks */,
+				CD41D16B26074404009E7EF9 /* Resources */,
+				0D5EC8EA7FA3FE5FC2347C81 /* [CP] Embed Pods Frameworks */,
+				CD7E92DD2615BE3B0028C622 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7E92DB2615BE3B0028C622 /* PBXTargetDependency */,
+			);
+			name = HedefYks;
+			productName = HedefYks;
+			productReference = CD41D16D26074404009E7EF9 /* HedefYks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7E92D42615BE3B0028C622 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7E92E02615BE3B0028C622 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				E9BBC5F86888A502B19AD8FB /* [CP] Check Pods Manifest.lock */,
+				CD7E92D12615BE3B0028C622 /* Sources */,
+				CD7E92D22615BE3B0028C622 /* Frameworks */,
+				CD7E92D32615BE3B0028C622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = CD7E92D52615BE3B0028C622 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD41D16526074404009E7EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CD41D16C26074404009E7EF9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CD7E92D42615BE3B0028C622 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CD41D16826074404009E7EF9 /* Build configuration list for PBXProject "HedefYks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD41D16426074404009E7EF9;
+			productRefGroup = CD41D16E26074404009E7EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD41D16C26074404009E7EF9 /* HedefYks */,
+				CD7E92D42615BE3B0028C622 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD41D16B26074404009E7EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41D17D26074405009E7EF9 /* LaunchScreen.storyboard in Resources */,
+				CD41D17A26074405009E7EF9 /* Assets.xcassets in Resources */,
+				CD41D17826074404009E7EF9 /* Main.storyboard in Resources */,
+				CD41D1B626076893009E7EF9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7E92D32615BE3B0028C622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5EC8EA7FA3FE5FC2347C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HedefYks/Pods-HedefYks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HedefYks/Pods-HedefYks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HedefYks/Pods-HedefYks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D187BE447C073735C94465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HedefYks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BBC5F86888A502B19AD8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HedefYks-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD41D16926074404009E7EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41D1A726075606009E7EF9 /* SecondViewController.swift in Sources */,
+				CD52BC22260F19D10075B704 /* SoruArsiviViewController.swift in Sources */,
+				CD7EF689261313D800555B53 /* DuyurularViewController.swift in Sources */,
+				CDD32080260A49AA00100CCE /* tytDenemeEkleViewController.swift in Sources */,
+				CDB68F7B260B3C860048A9B6 /* eaDenemeShowViewController.swift in Sources */,
+				CD7EF68C2613395A00555B53 /* GeriSayimViewController.swift in Sources */,
+				CD41D1D826077364009E7EF9 /* RegisterViewController.swift in Sources */,
+				CD41D1AA2607560D009E7EF9 /* ThirdViewController.swift in Sources */,
+				CD41D1E32607D046009E7EF9 /* Konular1ViewController.swift in Sources */,
+				CD7EF68626122C4A00555B53 /* KonuTamamlaViewController.swift in Sources */,
+				CD7EF6832612276D00555B53 /* AytYuzdelerViewController.swift in Sources */,
+				CDD32083260A49B500100CCE /* aytDenemeEkleViewController.swift in Sources */,
+				CD41D1B026075631009E7EF9 /* FifthViewController.swift in Sources */,
+				CDD32086260A49BF00100CCE /* ydtDenemeEkleViewController.swift in Sources */,
+				CD7E92CF2615202D0028C622 /* SitelerViewController.swift in Sources */,
+				CD41D1E026077D8A009E7EF9 /* DropInViewController.swift in Sources */,
+				CDD861BF2609E1CB00635914 /* Konular2ViewController.swift in Sources */,
+				CD1D5F1C26149148003C376B /* TekliflerViewController.swift in Sources */,
+				CD52BC28260F39A60075B704 /* ExampleCollectionViewCell.swift in Sources */,
+				CD41D17526074404009E7EF9 /* ViewController.swift in Sources */,
+				CDD861C22609E1D400635914 /* Calis2ViewController.swift in Sources */,
+				CD41D1AD26075625009E7EF9 /* FourthViewController.swift in Sources */,
+				CD7EF6802612276100555B53 /* TytYuzdelerViewController.swift in Sources */,
+				CD7EF69226138A5E00555B53 /* KaynaklarViewController.swift in Sources */,
+				CD1D5F1F26149CD3003C376B /* InstagramViewController.swift in Sources */,
+				CD41D17126074404009E7EF9 /* AppDelegate.swift in Sources */,
+				CD52BC25260F37B50075B704 /* AytSoruArsiviViewController.swift in Sources */,
+				CD56A2E92608AEFF004371E9 /* Calis1ViewController.swift in Sources */,
+				CD41D17326074404009E7EF9 /* SceneDelegate.swift in Sources */,
+				CDD32089260A940300100CCE /* tytDenemeShowViewController.swift in Sources */,
+				CDB68F81260B3C9D0048A9B6 /* soDenemeShowViewController.swift in Sources */,
+				CDB68F7E260B3C8F0048A9B6 /* saDenemeShowViewController.swift in Sources */,
+				CD41D1A426074D55009E7EF9 /* FirstViewController.swift in Sources */,
+				CD41D1B3260758BB009E7EF9 /* SettingsViewController.swift in Sources */,
+				CD7EF68F2613777000555B53 /* YoutubeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7E92D12615BE3B0028C622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7E92D82615BE3B0028C622 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7E92DB2615BE3B0028C622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7E92D42615BE3B0028C622 /* OneSignalNotificationServiceExtension */;
+			targetProxy = CD7E92DA2615BE3B0028C622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD41D17626074404009E7EF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41D17726074404009E7EF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD41D17B26074405009E7EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41D17C26074405009E7EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD41D17F26074405009E7EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD41D18026074405009E7EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD41D18226074405009E7EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8734FC1B896E1D7F6B6DA52F /* Pods-HedefYks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HedefYks/HedefYks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSLY7D4PAH;
+				INFOPLIST_FILE = HedefYks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksergenozel.HedefYks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD41D18326074405009E7EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFB973552A62331D46B8C21 /* Pods-HedefYks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HedefYks/HedefYks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSLY7D4PAH;
+				INFOPLIST_FILE = HedefYks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksergenozel.HedefYks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7E92DE2615BE3B0028C622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14396025838E642F5AF97298 /* Pods-HedefYks-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSLY7D4PAH;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksergenozel.HedefYks.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7E92DF2615BE3B0028C622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F2154E28E6B5860FB33B9F /* Pods-HedefYks-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSLY7D4PAH;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksergenozel.HedefYks.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD41D16826074404009E7EF9 /* Build configuration list for PBXProject "HedefYks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41D17F26074405009E7EF9 /* Debug */,
+				CD41D18026074405009E7EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD41D18126074405009E7EF9 /* Build configuration list for PBXNativeTarget "HedefYks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41D18226074405009E7EF9 /* Debug */,
+				CD41D18326074405009E7EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7E92E02615BE3B0028C622 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7E92DE2615BE3B0028C622 /* Debug */,
+				CD7E92DF2615BE3B0028C622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD41D16526074404009E7EF9 /* Project object */;
+}
